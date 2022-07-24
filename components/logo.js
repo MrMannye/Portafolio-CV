@@ -18,7 +18,7 @@ const LogoBox = styled.span`
     }
 `;
 
-export default function logo() {
+const Logo = () =>  {
     const footPrintImg = `/images/footprint${useColorModeValue('','-dark')}.png`;
     return (
         <Link href='/'>
@@ -38,3 +38,5 @@ export default function logo() {
         </Link>
   )
 }
+
+export default Logo;
