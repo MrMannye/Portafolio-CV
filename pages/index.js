@@ -8,7 +8,6 @@ import { BioSection, BioYear } from "../components/bio"
 import Layout from "../components/layout/article"
 import { useEffect } from "react"
 import {SocialMd} from '../components/social'
-import { Hide } from "@chakra-ui/react"
 import Icon from '../components/icon'
 
 import iconmysql from '../public/images/icons/mysql.png'
@@ -29,7 +28,7 @@ export default function Home() {
   return (
     <Layout>
     <Container mt={20} maxWidth={'700px'} position='relative'>
-      <Box borderRadius={'lg'} bg='red' p={3} mb={6} align='center' bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}> 
+      <Box borderRadius={'lg'} p={3} mb={6} align='center' bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}> 
         Hello, I&apos;m a Frontend Developer based in Mexico. Currently I&apos;m studying the bachelor degree
       </Box>
       <Box display={{md:'flex'}}>
