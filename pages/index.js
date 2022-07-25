@@ -142,7 +142,9 @@ export default function Home() {
             Music
           </Link>
           , Playing Videogames,{' '}
-          , Cybersecurity, Machine Learning
+          <Link href="https://www.ibm.com/mx-es/analytics/machine-learning" target="_blank">
+            Cybersecurity
+          </Link>, Machine Learning
         </Paragraph>
       </Section>
 
