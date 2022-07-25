@@ -64,7 +64,7 @@ export default function Home() {
           <br />
           Also I&apos;m passionate about cybersecurity technologies and Artificial Intelligence
           {' '}
-          <NextLink href='/works/inkdrop' target={'_blank'}>
+          <NextLink href='https://github.com/MrMannye' target={'_blank'}>
             <Link>Github</Link>
           </NextLink>
           .
@@ -137,15 +137,12 @@ export default function Home() {
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+          Art,{' '}
+          <Link href="https://open.spotify.com/playlist/2uMguICmsz9ikGMXnMZhOR?si=624306dba3cc4310" target="_blank">
+            Music
           </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          , Playing Videogames,{' '}
+          , Cybersecurity, Machine Learning
         </Paragraph>
       </Section>
 
