@@ -11,6 +11,7 @@ import thumbHulu from '../../public/images/works/hulu.jpg'
 import thumbUber from '../../public/images/works/uber.png'
 import thumbAdmin from '../../public/images/works/admin.png'
 import thumbAmazon from '../../public/images/works/amazon.jpg'
+import thumbSolana from '../../public/images/works/solana-worlds.png'
 
 import iconreact from '../../public/images/icons/react.png'
 import iconmysql from '../../public/images/icons/mysql.png'
@@ -23,6 +24,7 @@ import iconmongodb from '../../public/images/icons/mongodb.png'
 import iconfirebase from '../../public/images/icons/firebase.png'
 import iconchart from '../../public/images/icons/chartjs.svg'
 import icongoogle from '../../public/images/icons/google-api.png'
+import iconsolana from '../../public/images/icons/solana.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -32,6 +34,18 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section>
+          <WorkGridItem id="solana" title="Solana Worlds" thumbnail={thumbSolana} href='https://solana-worlds.vercel.app/'>
+            ¡Bienvenido a "Solana Worlds", la revolucionaria DApp (aplicación descentralizada) que te sumergirá en un emocionante juego de mundos interconectados!
+          </WorkGridItem>
+          <Box display={'flex'} justifyContent='center' alignItems={'center'} mt={1}>
+            <Icon icon={iconnextjs} title='NextJS'></Icon>
+            <Icon icon={iconreact} title='React'></Icon>
+            <Icon icon={iconmysql} title='MySQL'></Icon>
+            <Icon icon={iconnodejs} title='NodeJS'></Icon>
+            <Icon icon={iconsolana} title='Solana'></Icon>
+          </Box>
+        </Section>
         <Section>
           <WorkGridItem id="isia" title="ISIA" thumbnail={thumbISIA} href='https://www.isia.com.mx/'>
           Website made with React, Redux, NodeJS and MySQL for a company dedicated to the sale of automation 

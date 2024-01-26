@@ -65,7 +65,7 @@ export default function Home() {
           Also I&apos;m passionate about cybersecurity technologies and Artificial Intelligence
           {' '}
           <NextLink href='https://github.com/MrMannye' target={'_blank'}>
-            <Link>Github</Link>
+            <Link href='https://github.com/MrMannye' target={'_blank'}>Github</Link>
           </NextLink>
           .
         </Paragraph>
@@ -97,6 +97,14 @@ export default function Home() {
         <BioSection>
           <BioYear>2021</BioYear>
           Working as a freelancer
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          Resolve incidents in the area of Cloud Maintenance for the sections of GNP
+          Autos and moral clients. My work consisted in developing maintenance to these
+          pages with Angular, React in the frontend as Java, Node in the backend with
+          MySQL for databases, as well as Google Cloud Platform to solve operation or
+          customer service issues.
         </BioSection>
       </Section>
 

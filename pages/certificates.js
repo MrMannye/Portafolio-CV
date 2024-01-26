@@ -3,7 +3,6 @@ import Layout from '../components/layout/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import cryptos from '../public/certificates/cryptos.jpg'
 import javascript from '../public/certificates/javascript.jpg'
 import nextjs from '../public/certificates/nextjs.jpg'
 import webpack from '../public/certificates/webpack.jpg'
@@ -14,7 +13,8 @@ import uxdesign from '../public/certificates/uxdesign.jpg'
 import emphatize from '../public/certificates/emphatize.jpg'
 import AZ900 from '../public/certificates/AZ-900.jpg'
 import Google from '../public/certificates/Google.jpg'
-import Chatbot from '../public/certificates/Chatbot.png'
+import Meta from '../public/certificates/Meta.jpg'
+
 import Data from '../public/certificates/Data.png'
 
 
@@ -27,8 +27,12 @@ const Certificates = () => (
 
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
                 <Section>
+                    <WorkGridItem id="microsoft" title="Frontend Developer - Meta" thumbnail={Meta}>
+                    </WorkGridItem>
+                </Section>
+                <Section>
                     <WorkGridItem id="microsoft" title="AZ900 - Microsoft" thumbnail={AZ900}>
-                    </WorkGridItem> 
+                    </WorkGridItem>
                 </Section>
                 <Section delay={0.3}>
                     <WorkGridItem id="google" thumbnail={Google} title="Web Developer - Google">
@@ -70,10 +74,6 @@ const Certificates = () => (
 
                 <Section delay={0.1}>
                     <WorkGridItem id="antenas" title="Data Science Tools - IBM" thumbnail={Data}>
-                    </WorkGridItem>
-                </Section>
-                <Section delay={0.1}>
-                    <WorkGridItem id="ibm" thumbnail={Chatbot} title="Build Your Own Chatbot - IBM">
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.1}>
