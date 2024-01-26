@@ -34,9 +34,9 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-      <Section>
+        <Section>
           <WorkGridItem id="solana" title="Solana Worlds" thumbnail={thumbSolana} href='https://solana-worlds.vercel.app/'>
-            ¡Bienvenido a "Solana Worlds", la revolucionaria DApp (aplicación descentralizada) que te sumergirá en un emocionante juego de mundos interconectados!
+            ¡Bienvenido a &quot;Solana Worlds&ldquo;, la revolucionaria DApp (aplicación descentralizada) que te sumergirá en un emocionante juego de mundos interconectados!
           </WorkGridItem>
           <Box display={'flex'} justifyContent='center' alignItems={'center'} mt={1}>
             <Icon icon={iconnextjs} title='NextJS'></Icon>
@@ -48,8 +48,8 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem id="isia" title="ISIA" thumbnail={thumbISIA} href='https://www.isia.com.mx/'>
-          Website made with React, Redux, NodeJS and MySQL for a company dedicated to the sale of automation 
-          products.
+            Website made with React, Redux, NodeJS and MySQL for a company dedicated to the sale of automation
+            products.
           </WorkGridItem>
           <Box display={'flex'} justifyContent='center' alignItems={'center'} mt={1}>
             <Icon icon={iconreact} title='React'></Icon>
@@ -60,7 +60,7 @@ const Works = () => (
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="styly" thumbnail={thumbAdmin} title="Admin-Shop" href={'https://github.com/MrMannye/React-Shop-Admin'}>
-            Website made for the certification as a Frontend Developer with React in Platzi, with the functionality 
+            Website made for the certification as a Frontend Developer with React in Platzi, with the functionality
             of a dashboard for administrator.
           </WorkGridItem>
           <Box display={'flex'} justifyContent='center' alignItems={'center'} mt={1}>
@@ -78,7 +78,7 @@ const Works = () => (
             thumbnail={thumbSpotify}
             href='https://github.com/MrMannye/Spotify-Clone'
           >
-            Spotify clone page using spotify-web-api to login, view your playlists and listen to your songs 
+            Spotify clone page using spotify-web-api to login, view your playlists and listen to your songs
             as if you were using the original application.
           </WorkGridItem>
           <Box display={'flex'} justifyContent='center' alignItems={'center'} mt={1}>
@@ -95,7 +95,7 @@ const Works = () => (
             thumbnail={thumbAntenas}
             href='https://github.com/MrMannye/Calculadora-Impedancia'
           >
-            Web page where you can find a transmission line calculator for Antennas. 
+            Web page where you can find a transmission line calculator for Antennas.
             With it you can calculate impedances as well as dimensions of the same.
           </WorkGridItem>
           <Box display={'flex'} justifyContent='center' alignItems={'center'} mt={1}>
