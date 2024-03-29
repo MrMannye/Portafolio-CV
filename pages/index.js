@@ -106,6 +106,10 @@ export default function Home() {
           MySQL for databases, as well as Google Cloud Platform to solve operation or
           customer service issues.
         </BioSection>
+        <BioSection>
+          <BioYear>2023</BioYear>
+          Working as a freelancer
+        </BioSection>
       </Section>
 
       <Section delay={0.5}>
